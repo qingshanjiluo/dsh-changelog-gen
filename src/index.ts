@@ -1,3 +1,16 @@
+/**
+ * dsh-changelog-gen — CHANGELOG生成器
+ *
+ * 功能：
+ * 1. Conventional Commits解析
+ * 2. 版本管理
+ * 3. 自动分类
+ * 4. 提交统计
+ *
+ * 工具：changelog_generate, changelog_preview, changelog_release, commit_stats
+ * 命令：/changelog
+ * 配置：enabled
+ */
 import { execSync, readFileSync, existsSync } from 'child_process';
 import { readFileSync as fsRead, writeFileSync as fsWrite, existsSync as fsExists } from 'fs';
 import { resolve } from 'path';
