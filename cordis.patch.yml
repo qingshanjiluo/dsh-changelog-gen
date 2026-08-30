@@ -1,0 +1,5 @@
+- insert:
+    - id: changelog-gen
+      name: dsh-changelog-gen
+      config:
+        enabled: true
